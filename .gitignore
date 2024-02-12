@@ -1,0 +1,31 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# Local code directories
+**/build/*
+**/builds/*
+**/node_modules/*
+
+# python
+secrets.py
+**/__pycache__/*
+
+# .tfstate static_site
+*.tfstate
+*.tfstate.*
+
+# plan static_site
+actual_tfvars.tfvars
+plan.out
+*.zip
+
+.idea
+.iml
+
+.DS_Store
+
+# Liquibase testing parameter file
+.lb_env
+# Liquibase AWS configuration values specific for installation
+aws_feedback_info.txt
+
